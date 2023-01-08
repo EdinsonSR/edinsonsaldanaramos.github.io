@@ -1,10 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+ 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -106,10 +100,28 @@ h1, h2, h3, h4, h5, h6 {
   height: 36px;
   transition: 0.3s;
 }
-#header .profile .social-links a:hover {
-  background: #149ddd;
+#header .profile .social-links a:hover { 
   color: #fff;
   text-decoration: none;
+}
+
+#header .profile .social-links  .facebook:hover{
+  background:#3b5998
+}
+
+#header .profile .social-links  .instagram:hover{
+  background:#C13584
+}
+
+#header .profile .social-links  .linkedin:hover{
+  background:#0077b5
+}
+
+#header .profile .social-links  .github:hover{
+  background:#355b48
+}
+#header .profile .social-links  .gmail:hover{
+  background:#db4a39
 }
 
 #main {
