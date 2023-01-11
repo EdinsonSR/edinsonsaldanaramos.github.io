@@ -86,7 +86,8 @@
   if (whatsappBtn) {
     const togglewhatsappBtn = () => {
       if (window.scrollY > 85) {
-        whatsappBtn.classList.add('active') 
+        whatsappBtn.classList.add('active')
+        $('#wps').text('hola');
       } else {
         whatsappBtn.classList.remove('active')
       }
