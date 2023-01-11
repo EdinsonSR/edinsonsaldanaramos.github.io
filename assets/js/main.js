@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ 
 (function() {
   "use strict";
 
@@ -72,7 +67,7 @@
   }
 
   /**
-   * Back to top button
+   * Back to top button and whatsapp
    */
   let backtotop = select('.back-to-top')
   if (backtotop) {
@@ -85,6 +80,19 @@
     }
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
+  }
+
+  let whatsappBtn = select('.whatsapp') 
+  if (whatsappBtn) {
+    const togglewhatsappBtn = () => {
+      if (window.scrollY > 85) {
+        whatsappBtn.classList.add('active') 
+      } else {
+        whatsappBtn.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', togglewhatsappBtn)
+    onscroll(document, togglewhatsappBtn)
   }
 
   /**
